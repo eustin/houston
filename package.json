@@ -1,0 +1,23 @@
+{
+  "name": "houston",
+  "version": "1.0.0",
+  "description": "A website to help you find your next rocket launch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-server": "npm install --prefix server",
+    "install-client": "npm install --prefix client",
+    "install": "npm run install-server && npm run install-client"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eustin/houston.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eustin/houston/issues"
+  },
+  "homepage": "https://github.com/eustin/houston#readme"
+}
