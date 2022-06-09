@@ -4,7 +4,7 @@ const axiosInstance = axios.create({
   baseURL: "https://lldev.thespacedevs.com/2.2.0",
 });
 
-async function getLaunches() {
+async function getUpcomingLaunches() {
   const response = await axiosInstance.get("/launch/upcoming/", {
     params: {
       limit: 5,
@@ -25,4 +25,4 @@ async function getLaunches() {
   );
 }
 
-module.exports = getLaunches;
+module.exports = getUpcomingLaunches;
