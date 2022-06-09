@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const axiosInstance = axios.create({
-  baseURL: "https://lldev.thespacedevs.com/2.2.0",
+  baseURL: process.env.LAUNCH_API_BASE_URL,
 });
 
 async function getUpcomingLaunches() {
@@ -23,6 +23,8 @@ async function getUpcomingLaunches() {
       return { id, slug, name, status, net, lsp_name, location, image };
     }
   );
+
+  return results;
 }
 
 module.exports = getUpcomingLaunches;
