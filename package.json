@@ -9,7 +9,7 @@
     "install-client": "npm install --prefix client",
     "install": "npm run install-server && npm run install-client",
     "start-server": "npm start --prefix server",
-    "start-client": "npm start --prefix client"    
+    "start-client": "npm start --prefix client"
   },
   "repository": {
     "type": "git",
