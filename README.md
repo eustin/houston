@@ -13,8 +13,10 @@ The first version of the app won't need to persist data in a database.
 
 * HTTP Node.js server (to be later replaced with an HTTPS web server)
 * Express app with single route to get latest launches, which uses a launches controller (to handle the incoming request and outgoing response), which uses a launches model to make the network request to the third party API 
+* CORS middleware to whitelist client origin
 * .env files to create environment variables
 * Fullstack package.json to bring up the React frontend and Node backend in a single command 
+
 
 
 ## How to install frontend and backend dependencies
