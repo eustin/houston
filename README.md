@@ -41,6 +41,7 @@ I wanted to learn more about UI/UX design so started taking a course on it. I cr
 * CORS middleware to whitelist client origin
 * .env files to create environment variables
 * Fullstack package.json to bring up the React frontend and Node backend in a single command 
+* TailwindCSS for styles
 
 ## How to install frontend and backend dependencies
 
