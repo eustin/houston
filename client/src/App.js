@@ -16,12 +16,12 @@ function App() {
 
   return (
     <div className="h-screen bg-gradient-to-t from-sky-800 via-rose-300 to-sky-800 flex flex-col items-center justify-center">
-      <h1>Welcome to Houston!</h1>
+      <div className="m-10 text-4xl text-white font-bold">Welcome to Houston!</div>
       <Logo height="200" width="300" />
-      <h2>Here are your upcoming launches:</h2>
-      <ul>
+      <div className="mt-5 text-2xl text-white font-medium">Here are your upcoming launches</div>
+      <ul className="m-5">
         {launches.map((launch) => (
-          <li key={launch.id}>{launch.name}</li>
+          <li className="mt-5 text-xl text-white" key={launch.id}>{launch.name}</li>
         ))}
       </ul>
     </div>
