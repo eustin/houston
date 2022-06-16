@@ -1,5 +1,7 @@
 # Houston
 
+![Houston logo](logo.jpg)
+
 This will be a React app that uses data from some third party API to show the user
 upcoming rocket launches. 
 
@@ -11,7 +13,10 @@ The first version of the app won't need to persist data in a database.
 
 My colleague [Rob Stoelhorst](https://robertstoelhorst.com/) and I wanted to work on something together. Rob loves rockets. I'm fascinated by space. So we decided to work on a rocket launches website together!
 
-I wanted to learn more about UI/UX design so started taking a course on it. I created some initial sketches, some userflows and a sitemap:
+I wanted to learn more about UI/UX design so started taking a course on it. I created some initial sketches, some userflows and a sitemap. I even created the basic logo, above, based on [this photo.](https://unsplash.com/photos/-p-KCm6xB9I)
+
+
+
 
 ### Sketches
 
