@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { httpGetLatestLaunches } from "./api/houstonBackend";
+import Logo from "./components/Logo";
 
 function App() {
   // todo: refactor all of this dev code
@@ -15,8 +16,9 @@ function App() {
 
   return (
     <div>
-      <div>Welcome to Houston!</div>
-      <div>Here are your upcoming launches:</div>
+      <h1>Welcome to Houston!</h1>
+      <Logo height="200" width="300" />
+      <h2>Here are your upcoming launches:</h2>
       <ul>
         {launches.map((launch) => (
           <li key={launch.id}>{launch.name}</li>
