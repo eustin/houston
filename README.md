@@ -7,6 +7,19 @@ The backend will be a Node.js server running an Express app.
 
 The first version of the app won't need to persist data in a database. 
 
+## Origin story
+
+My colleague [Rob Stoelhorst](https://robertstoelhorst.com/) and I wanted to work on something together. Rob loves rockets. I'm fascinated by space. So we decided to work on a rocket launches website together!
+
+I wanted to learn more about UI/UX design so started taking a course on it. I created some initial sketches, some userflows and a sitemap:
+
+![](sketches.jpg)
+
+![](userflows.jpg)
+
+![](sitemap.jpg)
+
+
 ## Current state of the website
 
 ![](houston-current-state.jpg)
