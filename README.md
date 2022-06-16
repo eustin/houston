@@ -13,12 +13,25 @@ My colleague [Rob Stoelhorst](https://robertstoelhorst.com/) and I wanted to wor
 
 I wanted to learn more about UI/UX design so started taking a course on it. I created some initial sketches, some userflows and a sitemap:
 
-![](sketches.jpg)
+### Sketches
 
-![](userflows.jpg)
+<img 
+     src="https://user-images.githubusercontent.com/6435319/174151878-05ea8666-0abb-4c9e-aa47-d320b8eaf3f7.jpg" 
+     width=500 
+/>
 
-![](sitemap.jpg)
+### User flows
 
+<img 
+     src="https://user-images.githubusercontent.com/6435319/174151897-d84ab937-9f07-424a-ad3f-6fb821620538.jpg" 
+     width=500 
+/>
+
+### Sitemap
+<img 
+     src="https://user-images.githubusercontent.com/6435319/174151902-a5b37723-b4c2-4751-9b7d-7514286cfc90.jpg" 
+     width=500 
+/>
 
 ## Current state of the website
 
@@ -29,8 +42,6 @@ I wanted to learn more about UI/UX design so started taking a course on it. I cr
 * CORS middleware to whitelist client origin
 * .env files to create environment variables
 * Fullstack package.json to bring up the React frontend and Node backend in a single command 
-
-
 
 ## How to install frontend and backend dependencies
 
