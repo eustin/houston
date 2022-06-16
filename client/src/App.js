@@ -15,7 +15,7 @@ function App() {
   }, []);
 
   return (
-    <div className="h-screen bg-gradient-to-t from-sky-800 via-rose-300 to-sky-800">
+    <div className="h-screen bg-gradient-to-t from-sky-800 via-rose-300 to-sky-800 flex flex-col items-center justify-center">
       <h1>Welcome to Houston!</h1>
       <Logo height="200" width="300" />
       <h2>Here are your upcoming launches:</h2>
