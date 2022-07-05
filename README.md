@@ -43,9 +43,10 @@ I wanted to learn more about UI/UX design so started taking a course on it. I cr
 * Fullstack package.json to bring up the React frontend and Node backend in a single command 
 * TailwindCSS for styles
 
-## How to install frontend and backend dependencies
+## Setup
 
-In the root of this repo, you'll find a `package.json` file with a `install` convenience script. Running `npm run install` will install both frontend and backend dependencies.  
+1. In the root of this repo, you'll find a `package.json` file with a `install` convenience script. Running `npm run install` will install both frontend and backend dependencies.  
+2. Copy the `client/.env.template` and `server/.env.template` to `.env` files.
 
 ## How to run the application stack
 
