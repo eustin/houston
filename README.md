@@ -45,7 +45,7 @@ I wanted to learn more about UI/UX design so started taking a course on it. I cr
 
 ## How to install frontend and backend dependencies
 
-In the root of this repo, you'll find a `package.json` file with a `install` convenience script. Running `npm install` will install both frontend and backend dependencies.  
+In the root of this repo, you'll find a `package.json` file with a `install` convenience script. Running `npm run install` will install both frontend and backend dependencies.  
 
 ## How to run the application stack
 
