@@ -46,7 +46,7 @@ I wanted to learn more about UI/UX design so started taking a course on it. I cr
 ## Setup
 
 1. In the root of this repo, you'll find a `package.json` file with a `install` convenience script. Running `npm run install` will install both frontend and backend dependencies.  
-2. Copy the `client/.env.template` and `server/.env.template` to `.env` files.
+2. Run `make .env`, which will copy the `server/.env.template` and `client/.env.template` to `.env` files.
 
 ## How to run the application stack
 
