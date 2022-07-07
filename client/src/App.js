@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
-import {
-  httpGetLatestLaunches,
-  httpGetLatestLaunchesStatic,
-} from "./api/houstonBackend";
+import HoustonApis from "./api/houstonBackend";
+
 import Logo from "./components/Logo";
 
 function App() {
@@ -11,7 +9,7 @@ function App() {
 
   useEffect(() => {
     async function getLaunches() {
-      const response = await httpGetLatestLaunchesStatic();
+      const response = await HoustonApis.httpGetLatestLaunches();
       setLaunches(response);
     }
     getLaunches();
