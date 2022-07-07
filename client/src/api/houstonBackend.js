@@ -42,7 +42,7 @@ const devApiConfig = {
 const devApis = { ...devApiConfig };
 const prodApis = { httpGetLatestLaunches };
 // If you want to override using static data in development and call the api to fetch live data for testing
-// you should swap out the value for IS_DEV below and make it < prodApis >
+// you should swap out the value for IS_DEV ? devApis below and change it to IS_DEV ? prodApis
 const HoustonApis = IS_DEV ? devApis : IS_PROD ? prodApis : prodApis;
 
 export default HoustonApis;
