@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { httpGetLatestLaunches } from "./api/houstonBackend";
+import HoustonApis from "./api/houstonBackend";
+
 import Logo from "./components/Logo";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
 
   useEffect(() => {
     async function getLaunches() {
-      const response = await httpGetLatestLaunches();
+      const response = await HoustonApis.httpGetLatestLaunches();
       setLaunches(response);
     }
     getLaunches();
@@ -16,12 +17,18 @@ function App() {
 
   return (
     <div className="h-screen bg-gradient-to-t from-sky-800 via-rose-300 to-sky-800 flex flex-col items-center justify-center">
-      <div className="m-10 text-4xl text-white font-bold">Welcome to Houston!</div>
+      <div className="m-10 text-4xl text-white font-bold">
+        Welcome to Houston!
+      </div>
       <Logo height="200" width="300" />
-      <div className="mt-5 text-2xl text-white font-medium">Here are your upcoming launches</div>
+      <div className="mt-5 text-2xl text-white font-medium">
+        Here are your upcoming launches
+      </div>
       <ul className="m-5">
         {launches.map((launch) => (
-          <li className="mt-5 text-xl text-white" key={launch.id}>{launch.name}</li>
+          <li className="mt-5 text-xl text-white" key={launch.id}>
+            {launch.name}
+          </li>
         ))}
       </ul>
     </div>
