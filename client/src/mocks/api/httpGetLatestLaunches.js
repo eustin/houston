@@ -10,7 +10,7 @@ const httpGetLatestLaunches = {
         abbrev: "Go",
         description: "Current T-0 confirmed by official or reliable sources.",
       },
-      net: "2022-07-07T11:13:00Z",
+      net: "2022-08-07T11:13:00Z",
       lsp_name: "Arianespace",
       location: "Kourou, French Guiana",
       image:
@@ -27,7 +27,7 @@ const httpGetLatestLaunches = {
         description:
           "Awaiting official confirmation - current date is known with some certainty.",
       },
-      net: "2022-07-07T13:00:00Z",
+      net: "2022-08-07T13:00:00Z",
       lsp_name: "SpaceX",
       location: "Cape Canaveral, FL, USA",
       image:
@@ -44,7 +44,7 @@ const httpGetLatestLaunches = {
         description:
           "Current date is a placeholder or rough estimation based on unreliable or interpreted sources.",
       },
-      net: "2022-07-10T00:00:00Z",
+      net: "2022-08-10T00:00:00Z",
       lsp_name: "SpaceX",
       location: "Cape Canaveral, FL, USA",
       image:
@@ -61,7 +61,7 @@ const httpGetLatestLaunches = {
         description:
           "Current date is a placeholder or rough estimation based on unreliable or interpreted sources.",
       },
-      net: "2022-07-11T00:00:00Z",
+      net: "2022-08-11T00:00:00Z",
       lsp_name: "SpaceX",
       location: "Vandenberg SFB, CA, USA",
       image:
@@ -77,7 +77,7 @@ const httpGetLatestLaunches = {
         abbrev: "Go",
         description: "Current T-0 confirmed by official or reliable sources.",
       },
-      net: "2022-07-12T10:57:00Z",
+      net: "2022-08-12T10:57:00Z",
       lsp_name: "Equatorial Launch Australia",
       location: "Arnhem Space Centre",
       image:

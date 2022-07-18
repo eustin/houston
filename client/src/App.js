@@ -17,6 +17,7 @@ function App() {
   }, []);
 
   return (
+    // TODO: some sort of app container with layouts/navigation ect.
     <div className="h-screen bg-gradient-to-t from-sky-800 via-rose-300 to-sky-800 flex flex-col items-center justify-center">
       <div className="m-10 text-4xl text-white font-bold">
         Welcome to Houston!
